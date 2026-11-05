@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zweli Mhlotshana | Developer and Graphic Designer</title>
+<meta name="description" content="Portfolio of Zweli Mhlotshana, IT student, developer and graphic designer from South Africa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;500&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="mark" href="#home"><span class="mono">ZV</span><span>Zweli<br>Mhlotshana</span></a>
+  <nav class="links" aria-label="Main"><a href="#home" class="on">Home</a><a href="#about">About</a><a href="#development">Development</a><a href="#design">Design</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+  <a class="pill" href="#contact">Let's talk</a>
+</header>
+<nav class="rail" aria-label="Social links"><a href="https://github.com/ZweliMhlotshana" aria-label="GitHub">GH</a><a href="#" aria-label="YouTube">YT</a><a href="#" aria-label="Behance">Bē</a><a href="mailto:zweli.mhlotshana@gmail.com" aria-label="Email">@</a></nav>
+
+<main>
+<section class="hero" id="home">
+  <p class="role">IT student | Aspiring IT professional | Technology enthusiast</p>
+  <h1>Building <span class="l">Ideas.</span> Designing <span class="v">Experiences.</span></h1>
+  <p class="lead">I'm <b>Zweli Mhlotshana</b>, a passionate developer and graphic designer who turns creativity into powerful digital solutions.</p>
+  <div class="btns"><a class="btn btn--solid" href="#projects">View my work</a><a class="btn" href="#contact">Contact me</a></div>
+  <div class="moon" id="moon" aria-hidden="true">ZV</div>
+  <svg class="city" viewBox="0 0 1200 200" preserveAspectRatio="none" aria-hidden="true"><path fill="#0d0e12" d="M0 200V140h60V90h40v50h50V60h50v80h40V110h60V40h45v100h55V100h50v40h60V70h50v70h60V120h70V50h40v90h60V90h60v50h60V30h45v110h55V100h60v100z"/></svg>
+  <p class="script">Code. Design. Create.</p>
+</section>
+
+<div class="bento">
+  <section class="card" id="about">
+    <p class="tagline v">About me</p><h2>Who am I?</h2>
+    <p>I'm an IT student with a strong passion for technology, design and problem-solving. I enjoy building websites, creating visuals and exploring new tools in the digital world.</p>
+    <div class="facts"><div><b>IT student</b><span>Richfield Graduate Institute of Technology</span></div><div><b>Developer</b><span>Web and Python</span></div><div><b>Designer</b><span>Branding and graphics</span></div><div><b>Lifelong learner</b><span>Always improving</span></div></div>
+    <a class="btn btn--solid" href="#contact">Learn more</a>
+  </section>
+
+  <section class="card dev" id="development">
+    <p class="tagline">Development</p><h2>Turning ideas into <span class="v">functional reality</span></h2>
+    <p>I build modern, responsive and efficient web applications.</p>
+    <div class="badges"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>Python</span></div>
+    <pre class="code" id="code" aria-label="Code sample"></pre>
+    <ul class="ticks"><li>Responsive web design</li><li>Problem solving</li></ul>
+    <a class="pill" href="https://github.com/ZweliMhlotshana">Explore my code</a>
+  </section>
+
+  <section class="card" id="design">
+    <p class="tagline v">Design</p><h2>Where creativity meets <span class="v">purpose</span></h2>
+    <div class="brand" aria-hidden="true">NEXORA PRINTS</div>
+    <p>I create visual designs that communicate ideas and build brands.</p>
+    <ul class="ticks"><li>Logo design and branding</li><li>Flyers and posters</li><li>Business cards</li><li>Digital graphics</li></ul>
+    <a class="pill" href="#projects" data-f="design">View my designs</a>
+  </section>
+
+  <section class="card" id="projects">
+    <p class="tagline v">My projects</p><h2>A showcase of my work</h2>
+    <div class="filters" role="group" aria-label="Filter projects">
+      <button class="chip on" data-f="all" aria-pressed="true">All</button><button class="chip" data-f="development" aria-pressed="false">Development</button><button class="chip" data-f="design" aria-pressed="false">Design</button>
+    </div>
+    <div class="plist">
+      <a class="proj" data-k="development" href="#"><div class="art" style="background:linear-gradient(160deg,var(--lime),#14151a 75%)"></div><div class="t"><b>Portfolio website</b><small>Web development</small></div></a>
+      <a class="proj" data-k="design" href="#"><div class="art" style="background:linear-gradient(135deg,var(--violet),#2a1a7a)"></div><div class="t"><b>Brand identity</b><small>Graphic design</small></div></a>
+      <a class="proj" data-k="development" href="#"><div class="art" style="background:repeating-linear-gradient(45deg,var(--lime) 0 12px,#a8d41f 12px 24px)"></div><div class="t"><b>Calculator app</b><small>Web development</small></div></a>
+      <a class="proj" data-k="design" href="#"><div class="art" style="background:radial-gradient(circle at 30% 30%,#ff7ab8,var(--violet) 65%)"></div><div class="t"><b>Event poster</b><small>Graphic design</small></div></a>
+    </div>
+  </section>
+
+  <section class="card contact" id="contact">
+    <div><p class="tagline v">Contact</p><h2>Let's work together!</h2><p>Have a project in mind, a question, or just want to connect? I'd love to hear from you.</p><a class="btn btn--solid" href="mailto:zweli.mhlotshana@gmail.com">Send a message</a></div>
+    <div class="info"><a href="mailto:zweli.mhlotshana@gmail.com">zweli.mhlotshana@gmail.com</a><span>South Africa</span><a href="https://github.com/ZweliMhlotshana">github.com/ZweliMhlotshana</a><a href="https://linkedin.com/in/zweli-mhlotshana">linkedin.com/in/zweli-mhlotshana</a></div>
+  </section>
+
+  <footer class="card foot"><span class="mono" style="font-size:2.5rem">ZV</span><b>Zweli Mhlotshana</b><small>Coder · Designer · Creator</small><q>Dream it. Code it. Design it.</q><small>© 2026 Zweli Mhlotshana. All rights reserved.</small></footer>
+</div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
